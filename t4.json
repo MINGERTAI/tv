@@ -1,5 +1,5 @@
 {
-    "spider":"https://ghproxy.com/https://raw.githubusercontent.com/breadmyth/tv/main/jar/0928.jar;md5;FF0EA5727D7F5BAFB443A2F87EBF7724",
+    "spider":"https://github.com/breadmyth/tv/raw/main/jar/fm.jar",
     "lives":[
         {
             "group":"redirect",
@@ -15,14 +15,15 @@
     ],
     "sites":[
         {
-            "key":"csp_Alist",
-            "name":"🍞Alist(SP)",
-            "type":3,
-            "api":"csp_Alist",
-            "searchable":0,
-            "quickSearch":0,
-            "filterable":0,
-            "ext":"http://breadmyth.asuscomm.com:22222"
+            "key": "T4-安博",
+            "name": "安博(T4)",
+            "type": 4,
+            "api": "https://tang.hz.cz/zb/tv?type=169&token=cac19881",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": true
         },
         {
             "key":"T4",
@@ -43,16 +44,6 @@
             "filterable":0
         },
         {
-            "key":"csp_collect_Alist",
-            "name":"👫Alist(SP)",
-            "type":3,
-            "api":"csp_Alist",
-            "searchable":0,
-            "quickSearch":0,
-            "filterable":0,
-            "ext":"https://gitcode.net/breadmyth1/tv/-/raw/main/collect_json/Alist.json"
-        },
-        {
             "key":"csp_Alist_collect",
             "name":"👫Alist(SP)",
             "type":3,
@@ -61,18 +52,8 @@
             "quickSearch":0,
             "filterable":0,
             "ext":"🔮嗨翻$https://pan.hikerfans.com#🦀9T$https://drive.9t.ee#🐱梓澪の妙妙屋$https://xn--i0v44m.xyz#🚆资源小站$https://pan.142856.xyz#🌤晴园的宝藏库$https://alist.52qy.repl.co#🐭米奇妙妙屋$https://anime.mqmmw.ga#💂小兵组网盘影视$https://6vv.app#📀小光盘$https://alist.xiaoguanxiaocheng.life#🐋一只鱼$https://alist.youte.ml#🌊七米蓝$https://al.chirmyram.com#🌴非盘$http://www.feifwp.top#🤠帅盘$https://hi.shuaipeng.wang#🐉神族九帝$https://alist.shenzjd.com#☃姬路白雪の资源小站$https://pan.jlbx.xyz#🎧听闻网盘$https://wangpan.sangxuesheng.com#🌺菊花盘$https://pan.142856.xyz"
-        },
-        {
-            "key":"csp_xpath_cls",
-            "name":"🍭磁力搜索(XP)",
-            "type":3,
-            "api":"csp_XPathFilter",
-            "searchable":1,
-            "quickSearch":1,
-            "filterable":1,
-            "ext":"{\r\n\"ua\": \"\",\r\n\"dtUrl\": \"https://1024bt25.xyz{vid}\",\r\n\"dtNode\": \"//div[@id='content']\",\r\n\"dtName\": \"//h2/text()\",\r\n\"dtNameR\": \"\",\r\n\"dtImg\": \"/@null\",\r\n\"dtCate\": \"concat(//tbody/td[1]//text())\",\r\n\"dtCateR\": \"\",\r\n\"dtYear\": \"concat(//tbody/td[2]//text())\",\r\n\"dtYearR\": \"\",\r\n\"dtDesc\": \"concat(//ol//text(),'')\",\r\n\"dtDescR\": \"\",\r\n\"dtFromNode\": \"//div[@id='wall']\",\r\n\"dtFromName\": \"concat('磁力链接','')\",\r\n\"dtFromNameR\": \"\",\r\n\"dtUrlNode\": \"//div[@id='magnet']\",\r\n\"dtUrlSubNode\": \"//a\",\r\n\"dtUrlId\": \"/@href\",\r\n\"dtUrlIdR\": \"\",\r\n\"dtUrlName\": \"/text()\", \r\n\"playUrl\": \"{playUrl}\",\r\n\"playUa\": \"\",\r\n\"searchUrl\": \"https://1024bt25.xyz/main-search-kw-{wd}-length-1.html\",\r\n\"scVodNode\": \"//div[@class='item-title']/h3/a\",\r\n\"scVodName\": \"/@title\",\r\n\"scVodId\": \"/@href\",\r\n\"scVodIdR\": \"\",\r\n\"scVodImg\": \"/@null\",\r\n\"scVodImgR\": \"\",\r\n  \"scVodMark\": \"\"\r\n}"
         }
-    ],
+        ],
     "flags":[
         "youku",
         "qq",
@@ -110,44 +91,8 @@
             "type":2,
             "url":"Sequence"
         },
-        {"name":"纯净1","url":"https://z1.m1907.cn/?jx=","mobile":1},
-        {"name":"B站1","url":"https://jx.bozrc.com:4433/player/?url=","mobile":1},
-        {"name":"爱豆","url":"https://jx.aidouer.net/?url=","mobile":1},
-        {"name":"BL","url":"https://vip.bljiex.com/?v=","mobile":0},
-        {"name":"冰豆","url":"https://api.qianqi.net/vip/?url=","mobile":0},
-        {"name":"百域","url":"https://jx.618g.com/?url=","mobile":0},
-        {"name":"CK","url":"https://www.ckplayer.vip/jiexi/?url=","mobile":0},
-        {"name":"CHok","url":"https://www.gai4.com/?url=","mobile":1},
-        {"name":"ckmov","url":"https://www.ckmov.vip/api.php?url="},
-        {"name":"H8","url":"https://www.h8jx.com/jiexi.php?url=","mobile":0},
-        {"name":"JY","url":"https://jx.playerjy.com/?url=","mobile":0},
-        {"name":"解析","url":"https://ckmov.ccyjjd.com/ckmov/?url=","mobile":0},
-        {"name":"解析la","url":"https://api.jiexi.la/?url=","mobile":0},
-        {"name":"老板","url":"https://vip.laobandq.com/jiexi.php?url=","mobile":0},
-        {"name":"乐多","url":"https://api.leduotv.com/wp-api/ifr.php?isDp=1&vid=","mobile":1},
-        {"name":"MAO","url":"https://www.mtosz.com/m3u8.php?url=","mobile":0},
-        {"name":"M3U8","url":"https://jx.m3u8.tv/jiexi/?url=","mobile":0},
-        {"name":"诺讯","url":"https://www.nxflv.com/?url=","mobile":0},
-        {"name":"OK","url":"https://okjx.cc/?url=","mobile":1},
-        {"name":"PM","url":"https://www.playm3u8.cn/jiexi.php?url=","mobile":0},
-        {"name":"盘古","url":"https://www.pangujiexi.cc/jiexi.php?url=","mobile":0},
-        {"name":"全民","url":"https://jx.blbo.cc:4433/?url=","mobile":0},
-        {"name":"七哥","url":"https://jx.mmkv.cn/tv.php?url=","mobile":0},
-        {"name":"RDHK","url":"https://jx.rdhk.net/?v=","mobile":1},
-        {"name":"人人迷","url":"https://jx.blbo.cc:4433/?url=","mobile":1},
-        {"name":"思云","url":"https://jx.ap2p.cn/?url=","mobile":0},
-        {"name":"思古3","url":"https://jsap.attakids.com/?url=","mobile":1},
-        {"name":"听乐","url":"https://jx.dj6u.com/?url=","mobile":1},
-        {"name":"维多","url":"https://jx.ivito.cn/?url=","mobile":0},
-        {"name":"虾米","url":"https://jx.xmflv.com/?url=","mobile":0},
-        {"name":"云端","url":"https://sb.5gseo.net/?url=","mobile":0},
-        {"name":"云析","url":"https://jx.yparse.com/index.php?url=","mobile":0},
-        {"name":"0523","url":"https://go.yh0523.cn/y.cy?url=","mobile":0},
-        {"name":"17云","url":"https://www.1717yun.com/jx/ty.php?url=","mobile":0},
-        {"name":"180","url":"https://jx.000180.top/jx/?url=","mobile":0},
-        {"name":"4K","url":"https://jx.4kdv.com/?url=","mobile":1},
-        {"name":"8090","url":"https://www.8090g.cn/?url=","mobile":0}
-    ],
+        {"name":"纯净1","url":"https://z1.m1907.cn/?jx=","mobile":1}
+        ],
     "ijk":[
         {
             "group":"软解码",
